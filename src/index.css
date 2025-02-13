@@ -5,7 +5,7 @@
 }
 
 body {
-  min-height: 100vh;
+  max-height: 100vh;
   font-family: "Open sans";
   min-height: 100vh;
 }
@@ -26,21 +26,19 @@ a {
 }
 
 /* parte del componente Header */
-figure {
-  text-align: center;
-  display: flex;
 
+header {
+  margin-bottom: 15px;
 }
 
-nav {
-  font: sans-serif;
+figure {
+  display: flex;
 }
 
 ul {
   display: flex;
   padding: 0;
   justify-content: center;
-  margin: 15px;
 }
 
 ul li {
@@ -65,30 +63,49 @@ ul li a:hover {
 main {
   text-align: center;
   padding: 4rem 1rem;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  text-align: left;
+  position: relative;
+  z-index: 99;
 }
 
 
 /* Footer */
 
 footer {
-  background-image: url('/public/img/footer-bg.jpg');
+  background-image: url('/img/footer-bg.jpg');
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer-nav {
   width: 100%;
   display: flex;
-  ;
-  margin-bottom: 3rem;
   color: white;
+  text-align: left;
+  padding-top: 40px;
+}
+
+.big-logo {
+  margin-left: 200px;
+  position: relative;
+  top: -80px;
+  z-index: 90;
+}
+
+.big-logo>img {
+  width: 2000px;
+  height: auto;
 }
 
 .footer-col {
-  flex-basis: calc(100% / 3);
+  flex-basis: calc(100% / 2);
   display: flex;
-  flex-shrink: 0;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 0 1rem;
+  flex-flow: column wrap;
 }
 
 .footer-col h4 {
@@ -96,12 +113,13 @@ footer {
   font-size: 1.25em;
   font-weight: 600;
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .footer-col ul {
   list-style-type: none;
   display: block;
-  margin: 0;
+  margin-bottom: 10px;
 }
 
 .footer-col ul li a {
@@ -112,4 +130,44 @@ footer {
   font-size: 0.875em;
   font-weight: normal;
   color: grey;
+}
+
+.social-bar {
+  width: 100%;
+  background-color: rgb(54, 54, 54);
+  height: 120px;
+}
+
+.sb-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  color: rgb(0, 174, 255);
+}
+
+button {
+  border: solid rgb(0, 174, 255) 4px;
+  background: none;
+  color: white;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icon {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.follow {
+  font-size: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
 }

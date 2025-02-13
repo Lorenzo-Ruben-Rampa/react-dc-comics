@@ -4,11 +4,6 @@ export default function Footer() {
             <div className="container">
                 <nav className="footer-nav">
                     <div className="footer-col">
-                        <figure>
-                            <img src="/img/dc-logo-bg.png" alt="Dc-Logo" />
-                        </figure>
-                    </div>
-                    <div className="footer-col">
                         <div>
                             <h4>DC COMICS</h4>
                             <ul>
@@ -19,6 +14,13 @@ export default function Footer() {
                                 <li><a href="#">Games</a></li>
                                 <li><a href="#">Videos</a></li>
                                 <li><a href="#">News</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>SHOP</h4>
+                            <ul>
+                                <li><a href="#">Shop DC</a></li>
+                                <li><a href="#">Shop DC Collectibles</a></li>
                             </ul>
                         </div>
                     </div>
@@ -52,16 +54,23 @@ export default function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className="footer-col">
-                        <div>
-                            <h4>SHOP</h4>
-                            <ul>
-                                <li><a href="#">Shop DC</a></li>
-                                <li><a href="#">Shop DC Collectibles</a></li>
-                            </ul>
-                        </div>
+                    <div className="big-logo">
+                        <img src="/img/dc-logo-bg.png" alt="Dc-Logo" />
                     </div>
                 </nav>
+            </div>
+            <div className="social-bar">
+                <div className="container sb-container">
+                    <button>SIGN UP NOW!</button>
+                    <span>
+                        <h3 className="follow">FOLLOW US</h3>
+                        <img className="social-icon" src="/img/footer-facebook.png" alt="fb-icon"></img>
+                        <img className="social-icon" src="/img/footer-twitter.png" alt="twitter-icon"></img>
+                        <img className="social-icon" src="/img/footer-youtube.png" alt="yt-icon"></img>
+                        <img className="social-icon" src="/img/footer-pinterest.png" alt="pinterest-icon"></img>
+                        <img className="social-icon" src="/img/footer-periscope.png" alt="periscope-icon"></img>
+                    </span>
+                </div>
             </div>
         </footer>
     );
