@@ -90,7 +90,6 @@ function App() {
   return (
     <>
       <Header />
-      <Main />
       {/* <div>
         {dcComics.map((comic) => (
           <div key={comic.id}>
@@ -100,6 +99,7 @@ function App() {
           </div>
         ))}
       </div> */}
+      <Main />
       <Footer />
     </>
   )
