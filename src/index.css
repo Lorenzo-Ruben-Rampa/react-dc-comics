@@ -27,6 +27,13 @@ a {
 
 /* parte del componente Header */
 
+.hd-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
 header {
   margin-bottom: 15px;
 }
