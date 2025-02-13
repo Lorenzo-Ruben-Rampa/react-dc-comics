@@ -1,3 +1,5 @@
+import Banner from "/Banner.jsx";
+
 export default function Main() {
     return (
         <main>
