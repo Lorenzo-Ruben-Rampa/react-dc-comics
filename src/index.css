@@ -6,16 +6,12 @@
 
 body {
   min-height: 100vh;
-  font-family: Raleway, sans-serif;
+  font-family: "Open sans";
   min-height: 100vh;
-  background-image: url('./assets/img/mountains.jpg');
-  background-repeat: no-repeat;
-  background-position: bottom;
 }
 
 img {
   max-width: 100%;
-  height: auto;
 }
 
 a {
@@ -32,6 +28,8 @@ a {
 /* parte del componente Header */
 figure {
   text-align: center;
+  display: flex;
+
 }
 
 nav {
@@ -42,7 +40,7 @@ ul {
   display: flex;
   padding: 0;
   justify-content: center;
-  margin: 30px;
+  margin: 15px;
 }
 
 ul li {
@@ -57,26 +55,32 @@ ul li a {
 
 ul li a.active,
 ul li a:hover {
-  background: lightblue;
+  border-bottom-width: 3px;
+  border-bottom: 6px solid rgb(12, 175, 230);
+  color: rgb(12, 175, 230);
 }
 
 
 /* parte di Main */
 main {
-  background-image: url('./assets/img/background.jpg');
   text-align: center;
   padding: 4rem 1rem;
-  margin: 4rem 0;
 }
 
 
 /* Footer */
 
+footer {
+  background-image: url('/public/img/footer-bg.jpg');
+  width: 100%;
+}
+
 .footer-nav {
-  width: 80%;
+  width: 100%;
   display: flex;
-  margin: 0 auto;
+  ;
   margin-bottom: 3rem;
+  color: white;
 }
 
 .footer-col {
@@ -107,4 +111,5 @@ main {
   padding: 0;
   font-size: 0.875em;
   font-weight: normal;
+  color: grey;
 }
