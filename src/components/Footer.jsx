@@ -54,8 +54,8 @@ export default function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className="big-logo">
-                        <img src="/img/dc-logo-bg.png" alt="Dc-Logo" />
+                    <div className="big-logo-placeholder">
+                        <img className="big-logo" src="/img/dc-logo-bg.png" alt="Dc-Logo" />
                     </div>
                 </nav>
             </div>

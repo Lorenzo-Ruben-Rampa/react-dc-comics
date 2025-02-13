@@ -112,6 +112,7 @@ footer {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 500px;
 }
 
 .footer-nav {
@@ -123,15 +124,19 @@ footer {
 }
 
 .big-logo {
-  margin-left: 200px;
-  position: relative;
-  top: -80px;
-  z-index: 90;
-}
-
-.big-logo>img {
+  position: absolute;
   width: 2000px;
   height: auto;
+  top: -20px;
+}
+
+.big-logo-placeholder {
+  margin-left: 200px;
+  position: relative;
+  top: -50px;
+  z-index: 90;
+  width: 2000px;
+  height: 400px;
 }
 
 .footer-col {
@@ -170,6 +175,9 @@ footer {
   width: 100%;
   background-color: rgb(54, 54, 54);
   height: 120px;
+  position: relative;
+  z-index: 100;
+  bottom: 0;
 }
 
 .sb-container {
