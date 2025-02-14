@@ -1,6 +1,3 @@
-// Importo l'array creato in Header
-// import { navLinks } from Header;
-
 export default function Footer(props) {
 
     const links = props.linksProp
