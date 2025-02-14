@@ -27,6 +27,10 @@ a {
 
 /* parte del componente Header */
 
+.motto {
+  color: black;
+}
+
 .hd-container {
   display: flex;
   justify-content: space-between;
