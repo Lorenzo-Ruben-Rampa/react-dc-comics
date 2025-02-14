@@ -5,7 +5,6 @@
 }
 
 body {
-  max-height: 100vh;
   font-family: "Open sans";
   min-height: 100vh;
 }
@@ -74,14 +73,19 @@ ul li a:hover {
 
 /* parte di Main */
 main {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("../public/img/jumbotron.jpg");
   color: white;
   text-align: left;
   position: relative;
   z-index: 99;
+}
+
+.teen-titans {
   height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-image: url("../public/img/jumbotron.jpg");
+  width: 100%;
 }
 
 .full-width {
@@ -93,8 +97,6 @@ main {
   width: 100%;
   background-color: rgb(27, 27, 27);
   height: 100px;
-  position: relative;
-  bottom: -100%;
 }
 
 .banner {
