@@ -1,1 +1,0 @@
-const menu = require('../data/comics.js');
