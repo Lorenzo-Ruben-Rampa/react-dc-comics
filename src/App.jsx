@@ -5,9 +5,23 @@ import './App.css'
 
 function App() {
   const dataSlogan = "Verità, giustizia e un domani migliore.";
+
+  const links = [
+    { name: "CHARACTERS", url: "#" },
+    { name: "COMICS", url: "#", active: true },
+    { name: "MOVIES", url: "#" },
+    { name: "TV", url: "#" },
+    { name: "GAMES", url: "#" },
+    { name: "COLLECTIBLES", url: "#" },
+    { name: "VIDEOS", url: "#" },
+    { name: "FANS", url: "#" },
+    { name: "NEWS", url: "#" },
+    { name: "SHOP", url: "#" }
+  ];
+
   return (
     <>
-      <Header slogan={dataSlogan} />
+      <Header slogan={dataSlogan} linksProp={links} />
       <Main />
       <Footer linksProp={links} />
     </>
