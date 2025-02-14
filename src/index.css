@@ -74,18 +74,27 @@ ul li a:hover {
 
 /* parte di Main */
 main {
-  background-color: rgb(17, 17, 17);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../public/img/jumbotron.jpg");
   color: white;
   text-align: left;
   position: relative;
   z-index: 99;
+  height: 400px;
 }
 
-.add-content {
-  display: flex;
-  align-items: center;
-  height: 150px;
-  vertical-align: middle;
+.full-width {
+  width: 100%;
+  height: 200px;
+}
+
+.array-container {
+  width: 100%;
+  background-color: rgb(27, 27, 27);
+  height: 100px;
+  position: relative;
+  bottom: -100%;
 }
 
 .banner {
