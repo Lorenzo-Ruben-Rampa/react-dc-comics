@@ -1,20 +1,20 @@
-// Creo un nuovo array di link
-const navLinks = [
-    { name: "CHARACTERS", url: "#" },
-    { name: "COMICS", url: "#", active: true },
-    { name: "MOVIES", url: "#" },
-    { name: "TV", url: "#" },
-    { name: "GAMES", url: "#" },
-    { name: "COLLECTIBLES", url: "#" },
-    { name: "VIDEOS", url: "#" },
-    { name: "FANS", url: "#" },
-    { name: "NEWS", url: "#" },
-    { name: "SHOP", url: "#" }
-];
-
-
 // Header.jsx
 export default function Header(props) {
+
+    // Creo un nuovo array di link
+    const links = [
+        { name: "CHARACTERS", url: "#" },
+        { name: "COMICS", url: "#", active: true },
+        { name: "MOVIES", url: "#" },
+        { name: "TV", url: "#" },
+        { name: "GAMES", url: "#" },
+        { name: "COLLECTIBLES", url: "#" },
+        { name: "VIDEOS", url: "#" },
+        { name: "FANS", url: "#" },
+        { name: "NEWS", url: "#" },
+        { name: "SHOP", url: "#" }
+    ];
+
     return (
         <header>
             <div className="container hd-container">
@@ -26,7 +26,7 @@ export default function Header(props) {
                 </div>
                 <nav>
                     <ul>
-                        {navLinks.map((link, index) => (
+                        {links.map((link, index) => (
                             <li key={index}>
                                 <a href={link.url} className={link.active ? "active" : ""}>
                                     {link.name}

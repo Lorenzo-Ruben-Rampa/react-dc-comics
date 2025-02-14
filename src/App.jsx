@@ -9,7 +9,7 @@ function App() {
     <>
       <Header slogan={dataSlogan} />
       <Main />
-      <Footer />
+      <Footer linksProp={links} />
     </>
   )
 }

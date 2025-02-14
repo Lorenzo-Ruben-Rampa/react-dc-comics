@@ -1,4 +1,12 @@
-export default function Footer() {
+// Importo l'array creato in Header
+// import { navLinks } from Header;
+
+export default function Footer(props) {
+
+    const links = props.linksProp
+    // versione desstructuring
+    // const {linksProp} = props;
+
     return (
         <footer>
             <div className="container">
@@ -7,13 +15,13 @@ export default function Footer() {
                         <div>
                             <h4>DC COMICS</h4>
                             <ul>
-                                <li><a href="#">Characters</a></li>
-                                <li><a href="#">Comics</a></li>
-                                <li><a href="#">Movies</a></li>
-                                <li><a href="#">TV</a></li>
-                                <li><a href="#">Games</a></li>
-                                <li><a href="#">Videos</a></li>
-                                <li><a href="#">News</a></li>
+                                {links.map((link, index) => (
+                                    <li key={index}>
+                                        <a href={link.url} className={link.active ? "active" : ""}>
+                                            {link.name}
+                                        </a>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                         <div>
