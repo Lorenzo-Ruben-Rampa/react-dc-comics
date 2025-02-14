@@ -7,16 +7,16 @@ function App() {
   const dataSlogan = "Verità, giustizia e un domani migliore.";
 
   const links = [
-    { name: "CHARACTERS", url: "#" },
-    { name: "COMICS", url: "#" },
-    { name: "MOVIES", url: "#" },
-    { name: "TV", url: "#" },
-    { name: "GAMES", url: "#" },
-    { name: "COLLECTIBLES", url: "#" },
-    { name: "VIDEOS", url: "#" },
-    { name: "FANS", url: "#" },
-    { name: "NEWS", url: "#" },
-    { name: "SHOP", url: "#" }
+    { name: "CHARACTERS", url: "#", id: 1 },
+    { name: "COMICS", url: "#", id: 2 },
+    { name: "MOVIES", url: "#", id: 3 },
+    { name: "TV", url: "#", id: 4 },
+    { name: "GAMES", url: "#", id: 5 },
+    { name: "COLLECTIBLES", url: "#", id: 6 },
+    { name: "VIDEOS", url: "#", id: 7 },
+    { name: "FANS", url: "#", id: 8 },
+    { name: "NEWS", url: "#", id: 9 },
+    { name: "SHOP", url: "#", id: 10 }
   ];
 
   return (

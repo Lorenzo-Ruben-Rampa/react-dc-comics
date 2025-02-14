@@ -14,8 +14,8 @@ export default function Header(props) {
                 </div>
                 <nav>
                     <ul>
-                        {links.map((link, index) => (
-                            <li key={index}>
+                        {links.map((link) => (
+                            <li key={link.id}>
                                 <a href={link.url} className={link.active ? "active" : ""}>
                                     {link.name}
                                 </a>

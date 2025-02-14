@@ -12,8 +12,8 @@ export default function Footer(props) {
                         <div>
                             <h4>DC COMICS</h4>
                             <ul>
-                                {links.map((link, index) => (
-                                    <li key={index}>
+                                {links.map((link) => (
+                                    <li key={link.id}>
                                         <a href={link.url} className={link.active ? "active" : ""}>
                                             {link.name}
                                         </a>
