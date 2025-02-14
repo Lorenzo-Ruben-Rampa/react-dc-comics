@@ -1,20 +1,6 @@
 // Header.jsx
 export default function Header(props) {
 
-    // Creo un nuovo array di link
-    // const links = [
-    //     { name: "CHARACTERS", url: "#" },
-    //     { name: "COMICS", url: "#", active: true },
-    //     { name: "MOVIES", url: "#" },
-    //     { name: "TV", url: "#" },
-    //     { name: "GAMES", url: "#" },
-    //     { name: "COLLECTIBLES", url: "#" },
-    //     { name: "VIDEOS", url: "#" },
-    //     { name: "FANS", url: "#" },
-    //     { name: "NEWS", url: "#" },
-    //     { name: "SHOP", url: "#" }
-    // ];
-
     const links = props.linksProp
 
     return (

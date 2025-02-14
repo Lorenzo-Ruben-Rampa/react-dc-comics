@@ -8,7 +8,7 @@ function App() {
 
   const links = [
     { name: "CHARACTERS", url: "#" },
-    { name: "COMICS", url: "#", active: true },
+    { name: "COMICS", url: "#" },
     { name: "MOVIES", url: "#" },
     { name: "TV", url: "#" },
     { name: "GAMES", url: "#" },
