@@ -6,7 +6,7 @@ export default function Main() {
             <div class="teen-titans"></div>
             <div class="array-container">
                 <div className="container">
-                    <button>LOAD MORE</button>
+                    <button class="loading">LOAD MORE</button>
                 </div>
             </div>
             <Banner />
