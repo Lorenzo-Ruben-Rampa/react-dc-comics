@@ -165,7 +165,7 @@ export default function Listato() {
 
     return (
         <section id="comics">
-            <button class="loading c-series">CURRENT SERIES</button>
+            <button className="loading c-series">CURRENT SERIES</button>
             <div className="container card-container">
                 {renderComics()}
             </div>
