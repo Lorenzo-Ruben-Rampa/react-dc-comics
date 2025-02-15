@@ -82,12 +82,24 @@ main {
   z-index: 99;
 }
 
+.c-series {
+  position: relative;
+  top: -20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .teen-titans {
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  background-image: url("../public/img/jumbotron.jpg");
+  background-image: url("/img/jumbotron.jpg");
   width: 100%;
 }
 

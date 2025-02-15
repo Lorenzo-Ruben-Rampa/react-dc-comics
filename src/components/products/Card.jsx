@@ -1,12 +1,12 @@
 export default function Card(props) {
 
     // destrutturiamo l'oggetto ricevuto
-    // const { src, title } = props.productInfo;
+    // const { src, title } = props.comicsInfo;
 
     return (
-        <div className="prod-card">
-            <img src={props.productSrc} alt={props.productTitle} />
-            <h3>{props.productTitle}</h3>
+        <div className="comics-card">
+            <img src={props.comicSrc} alt={props.comicTitle} />
+            <h3>{props.comicTitle}</h3>
         </div>
     );
 }
