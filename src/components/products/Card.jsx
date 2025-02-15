@@ -5,8 +5,8 @@ export default function Card(props) {
 
     return (
         <div className="comics-card">
-            <img src={props.comicSrc} alt={props.comicTitle} />
-            <h3>{props.comicTitle}</h3>
+            <img className="img-array" src={props.comicSrc} alt={props.comicTitle} />
+            <h3>{props.comicTitle.toUpperCase()}</h3>
         </div>
     );
 }

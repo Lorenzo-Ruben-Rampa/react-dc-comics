@@ -21,7 +21,7 @@ a {
 /* Utils */
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 75%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,16 +82,37 @@ main {
   z-index: 99;
 }
 
+.mini-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.comics-card h3 {
+  height: 20px;
+  width: 150px;
+  font-size: 10px;
+}
+
+.img-array {
+  height: 150px;
+  width: 150px;
+}
+
 .c-series {
   position: relative;
   top: -20px;
+  left: 190px;
 }
 
 .card-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .teen-titans {
@@ -111,7 +132,6 @@ main {
 .array-container {
   width: 100%;
   background-color: rgb(27, 27, 27);
-  height: 100px;
 }
 
 .banner {
@@ -230,7 +250,6 @@ button {
 .loading {
   background-color: rgb(0, 174, 255);
   position: relative;
-  top: 30px;
   height: 20px;
   width: 200px;
   display: inline-flex;

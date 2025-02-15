@@ -8,9 +8,12 @@ export default function Main() {
             <div class="array-container">
                 <div className="container">
                     <Listato />
+                </div>
+                <div class="mini-container">
                     <button class="loading">LOAD MORE</button>
                 </div>
             </div>
+
             <Banner />
         </main>
     );
